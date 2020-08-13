@@ -78,7 +78,7 @@
 }
 
 .go_button_container button {
-  background-color: #16161A;
+  background-color: #16161a;
   color: #fff;
   padding: 0.7rem 2rem;
   font-size: var(--semi-font);
@@ -88,7 +88,7 @@
 }
 
 .go_button_container button:hover {
-  border: 1px solid #A6A6A7;
+  border: 1px solid #a6a6a7;
 }
 
 .go_button_container button:focus {

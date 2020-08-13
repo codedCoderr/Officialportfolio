@@ -42,7 +42,7 @@
   font-weight: normal;
   font-size: var(--normal-font);
   line-height: 21px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
   line-height: 2;
 }
@@ -100,31 +100,30 @@ nav ul li a img {
   margin: 0 10px;
   width: 30px;
   pointer-events: none;
-  transition: width .3s linear;
+  transition: width 0.3s linear;
 }
 
 nav ul li.active_menu {
   opacity: 1;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 }
 
 nav ul li.active_menu a img {
   margin: 0 10px;
-  width:50px;
-  transition: width .3s linear;
+  width: 50px;
+  transition: width 0.3s linear;
 }
 
 nav ul li:hover {
   opacity: 1;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 }
 
 nav ul li:hover a img {
   margin: 0 10px;
   width: 50px;
-  transition: width .3s linear;
+  transition: width 0.3s linear;
 }
-
 
 .footer {
   display: flex;
@@ -159,17 +158,16 @@ nav ul li:hover a img {
 }
 
 .footer .social a img {
- width: 20%;
- margin-left: 2px;
- height: 70%;
+  width: 20%;
+  margin-left: 2px;
+  height: 70%;
 }
 
 .base_container .go_button_container {
   display: none !important;
 }
 
-@media(max-width: 993px) {
-
+@media (max-width: 993px) {
   .intro_box h1 .desktop_grt {
     display: none;
   }
