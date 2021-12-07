@@ -27,7 +27,7 @@ export class Resume extends Component {
             </div>
           </div>
 
-          <p className="subheading">Full Stack Web Developer</p>
+          <p className="subheading">Backend Web Developer</p>
 
           <div className="summary">
             <p>
@@ -49,18 +49,16 @@ export class Resume extends Component {
           </div>
 
           <div className="skills">
-            <p>Javascript</p>
-            <p>C#</p>
-            <p>.NET</p>
-            <p>REACT/REDUX</p>
+            <p>JAVASCRIPT</p>
+            <p>NESTJS</p>
             <p>NODE</p>
             <p>EXPRESS</p>
-            <p>SQL</p>
             <p>MONGODB</p>
+            <p>POSTGRES</p>
+            <p>SQL</p>
+            <p>REACT/REDUX</p>
             <p>HTML</p>
             <p>CSS</p>
-            <p>FIGMA</p>
-            <p>ADOBE XD</p>
           </div>
 
           <div className="divider">
@@ -71,19 +69,49 @@ export class Resume extends Component {
           <div className="exp_container">
             <section className="experience">
               <p className="title">
-                Parthian Partners Limited - Software Developer (Graduate
-                Trainee)
+                Bento Africa - Backend Developer 
                 <span>
                   {" "}
-                  <br /> FEBRUARY 2020 - PRESENT
+                  <br /> MARCH 2021 - PRESENT
                 </span>
               </p>
               <article className="description">
-                Actively learning the ropes from experts in the field. Taking up
-                project management roles. Documentation of Project
-                Implementation Plan, Process Flow. Putting together Test Suite
+                ● Collaborated in a distributed team and authored a number of services jointly running
+payroll management and providing HRM services to over 25,000 users. This includes adding
+new features, scaling and optimizing as necessary.
+
+● Refactored our existing API services to improve the UX for our users. This includes
+heavy-lifting certain processes while keeping systems secure and performant, reducing
+the latency of our services and increasing throughput.
+
+● Used a bulletproof node js architecture to encourage loose coupling, separation of
+concerns and code consistency.
+              </article>
+            </section>
+            <section className="experience">
+              <p className="title">
+                Parthian Partners Limited - Software Developer
+                <span>
+                  {" "}
+                  <br /> FEBRUARY 2020 - FEBRUARY 2021
+                </span>
+              </p>
+              <article className="description">
+                ● Actively learned the ropes from experts in the field. 
+
+                ● Took up
+                project management roles. 
+
+                ● Documentation of Project
+                Implementation Plan, Process Flow. 
+
+                ● Putting together Test Suite
                 templates and engaging in end to end testing of finished
                 products.
+
+                ● Improved performance on a number of our frontend applications by lazy loading assets and deferring API calls.
+
+                ● Wrote integration tests for all modules.
               </article>
             </section>
 
