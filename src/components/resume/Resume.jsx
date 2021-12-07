@@ -26,11 +26,11 @@ export class Resume extends Component {
             </div>
           </div>
 
-          <p className='subheading'>Backend Web Developer</p>
+          <p className='subheading'>Software Engineer</p>
 
           <div className='summary'>
             <p>
-              A solution-driven Web-Developer that excels in highly
+              A solution-driven Software Engineer that excels in highly
               collaborative work environments, finds solutions to challenges and
               is focused on customer satisfaction. Proven experience developing
               consumer-focused web sites and meeting the highest standards for
@@ -68,7 +68,7 @@ export class Resume extends Component {
           <div className='exp_container'>
             <section className='experience'>
               <p className='title'>
-                Bento Africa - Backend Developer
+                Bento Africa - Backend Engineer
                 <span>
                   {' '}
                   <br /> MARCH 2021 - PRESENT
@@ -96,7 +96,7 @@ export class Resume extends Component {
             </section>
             <section className='experience'>
               <p className='title'>
-                Parthian Partners Limited - Software Developer
+                Parthian Partners Limited - Software Engineer
                 <span>
                   {' '}
                   <br /> FEBRUARY 2020 - FEBRUARY 2021

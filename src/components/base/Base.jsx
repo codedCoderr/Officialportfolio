@@ -26,8 +26,8 @@ export class Base extends Component {
             <p>
               {' '}
               <span>
-                I am a Backend Web Developer with a passion for building things
-                and using code to solve every day problems.{' '}
+                I am a Software Engineer with a passion for building things and
+                using code to solve every day problems.{' '}
               </span>{' '}
               <span className='highlight'>
                 I participate actively in mentoring young and upcoming
