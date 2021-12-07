@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import "./Resume.css";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import './Resume.css';
 
 export class Resume extends Component {
   componentDidMount() {
@@ -9,27 +9,26 @@ export class Resume extends Component {
 
   render() {
     return (
-      <div className="resume">
-        <div className="resume_container">
-          <div className="top_row">
+      <div className='resume'>
+        <div className='resume_container'>
+          <div className='top_row'>
             <h2>Olowu Busola</h2>
-            <div className="buttons">
+            <div className='buttons'>
               <a
-                href="https://www.linkedin.com/in/codedcoder"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+                href='https://www.linkedin.com/in/codedcoder'
+                target='_blank'
+                rel='noopener noreferrer'>
                 <small>
-                  <i className="fab fa-linkedin"></i> <span>LinkedIn</span>{" "}
+                  <i className='fab fa-linkedin'></i> <span>LinkedIn</span>{' '}
                 </small>
               </a>
               {/* <a href="./codedcoder's CV.pdf" download target='_blank' rel="noopener noreferrer"><small><i className="fas fa-download"></i> <span>Download </span> </small></a>  */}
             </div>
           </div>
 
-          <p className="subheading">Backend Web Developer</p>
+          <p className='subheading'>Backend Web Developer</p>
 
-          <div className="summary">
+          <div className='summary'>
             <p>
               A solution-driven Web-Developer that excels in highly
               collaborative work environments, finds solutions to challenges and
@@ -43,12 +42,12 @@ export class Resume extends Component {
             </p>
           </div>
 
-          <div className="divider">
+          <div className='divider'>
             <p>Skills</p>
             <span></span>
           </div>
 
-          <div className="skills">
+          <div className='skills'>
             <p>JAVASCRIPT</p>
             <p>NESTJS</p>
             <p>NODE</p>
@@ -61,75 +60,86 @@ export class Resume extends Component {
             <p>CSS</p>
           </div>
 
-          <div className="divider">
+          <div className='divider'>
             <p>Experience</p>
             <span></span>
           </div>
 
-          <div className="exp_container">
-            <section className="experience">
-              <p className="title">
-                Bento Africa - Backend Developer 
+          <div className='exp_container'>
+            <section className='experience'>
+              <p className='title'>
+                Bento Africa - Backend Developer
                 <span>
-                  {" "}
+                  {' '}
                   <br /> MARCH 2021 - PRESENT
                 </span>
               </p>
-              <article className="description">
-                ● Collaborated in a distributed team and authored a number of services jointly running
-payroll management and providing HRM services to over 25,000 users. This includes adding
-new features, scaling and optimizing as necessary.
+              <article className='description'>
+                <p>
+                  Collaborating in a distributed team and authored a number of
+                  services jointly running payroll management and providing HRM
+                  services to over 25,000 users. This includes adding new
+                  features, scaling and optimizing as necessary.
+                </p>
 
-● Refactored our existing API services to improve the UX for our users. This includes
-heavy-lifting certain processes while keeping systems secure and performant, reducing
-the latency of our services and increasing throughput.
-
-● Used a bulletproof node js architecture to encourage loose coupling, separation of
-concerns and code consistency.
+                <p>
+                  Refactoring existing API services to improve the UX for our
+                  users. This includes heavy-lifting certain processes while
+                  keeping systems secure and performant, reducing the latency of
+                  our services and increasing throughput.
+                </p>
+                <p>
+                  Using bulletproof node js architecture to encourage loose
+                  coupling, separation of concerns and code consistency.
+                </p>
               </article>
             </section>
-            <section className="experience">
-              <p className="title">
+            <section className='experience'>
+              <p className='title'>
                 Parthian Partners Limited - Software Developer
                 <span>
-                  {" "}
+                  {' '}
                   <br /> FEBRUARY 2020 - FEBRUARY 2021
                 </span>
               </p>
-              <article className="description">
-                ● Actively learned the ropes from experts in the field. 
+              <article className='description'>
+                <p>Actively learned the ropes from experts in the field. </p>
 
-                ● Took up
-                project management roles. 
+                <p>Took up project management roles.</p>
 
-                ● Documentation of Project
-                Implementation Plan, Process Flow. 
+                <p>
+                  {' '}
+                  Documentation of Project Implementation Plan, Process Flow.
+                </p>
 
-                ● Putting together Test Suite
-                templates and engaging in end to end testing of finished
-                products.
+                <p>
+                  Putting together Test Suite templates and engaging in end to
+                  end testing of finished products.
+                </p>
 
-                ● Improved performance on a number of our frontend applications by lazy loading assets and deferring API calls.
-
-                ● Wrote integration tests for all modules.
+                <p>
+                  Improved performance on a number of our frontend applications
+                  by lazy loading assets and deferring API calls.
+                </p>
+                <p>Wrote integration tests for all modules.</p>
               </article>
             </section>
 
-            <section className="experience">
-              <p className="title">
+            <section className='experience'>
+              <p className='title'>
                 HNG Tech - Full Stack Developer (Intern)
                 <span>
-                  {" "}
+                  {' '}
                   <br /> AUGUST 2019 - NOVEMBER 2019
                 </span>
               </p>
-              <article className="description">
+              <article className='description'>
                 <p>
                   An Internship organized by hotels.ng and sponsored by
                   flutterwave that involves developing interns through
                   collaboration, project management and also time management. I
                   was team lead for two projects during the internship and I
-                  learnt valuable skills that have made me a better developer.{" "}
+                  learnt valuable skills that have made me a better developer.{' '}
                 </p>
                 <p>
                   I led a team into building a file sharing application,
@@ -154,20 +164,20 @@ concerns and code consistency.
             </section>
           </div>
 
-          <div className="divider">
+          <div className='divider'>
             <p>Education</p>
             <span></span>
           </div>
 
-          <div className="exp_container">
-            <section className="experience">
-              <p className="title">
+          <div className='exp_container'>
+            <section className='experience'>
+              <p className='title'>
                 Babcock University - Computer Science (Technology)
                 <span>
-                  {" "}
+                  {' '}
                   <br /> 2010-2015
                 </span>
-                <article className="description">
+                <article className='description'>
                   <p>
                     This was an extensive learning period that lasted over 4
                     years and covered all the required aspects surrounding
@@ -179,16 +189,16 @@ concerns and code consistency.
           </div>
         </div>
 
-        <div className="go_button_container">
-          <Link to="/">
-            {" "}
+        <div className='go_button_container'>
+          <Link to='/'>
+            {' '}
             <button>
-              {" "}
+              {' '}
               <b>➜ </b> Home
             </button>
           </Link>
-          <Link to="/work">
-            {" "}
+          <Link to='/work'>
+            {' '}
             <button>Work ➜ </button>
           </Link>
         </div>
